@@ -1,23 +1,21 @@
 # Stack-Overflow-PHPBB-Automated
 
-This is a python script for automatically getting topics from Stack Overflow and posting it on PHPBB forum. 
+This is a python script to get topics from Stack Overflow, and to post it on your PHPBB forum. The script might be unstable, don't expect too much from it. This is only for educational purpose.
 
-# Ussage
-The script first attempts to get a question from Stack Overflow using API provided by "api.stackexchange.com/2
+# Usage
+The script first attempts to get questions from Stack Overflow using API provided by "api.stackexchange.com/2
 .2/search" and then tries to find answer by using "api.stackexchange.com/2.2/answers/" API, puts it all in one 
-string and makes a POST request to "generator.php" that is on your website. The "generator.php" then automatic
-ally posts a topic using the provided information. 
+string and makes a POST request to "generator.php". The "generator.php" then automatically posts a topic using 
+the provided information. You will be required to configure some strings first, to make it work properly.
 
 # Installation
 
 Python Script:
-    $ git clone https://github.com/aleri0n/Stack-Overflow-PHPBB-Automated.git
-    $ cd Stack-Overflow-PHPBB-Automated
-    $ gedit phpbb.py
-    
-    # Configure the values in the phpbb.py script.
-    
-    $ python phpbb.py (OR ./phpbb.py)
+1. $ git clone https://github.com/aleri0n/Stack-Overflow-PHPBB-Automated.git
+2. $ cd Stack-Overflow-PHPBB-Automated
+3. $ gedit phpbb.py
+4. # Configure the values in the phpbb.py script.
+5. $ python phpbb.py (OR ./phpbb.py)
 
 PHP Script:
 1. Upload the script on your website server.
