@@ -9,17 +9,13 @@ string and makes a POST request to "generator.php". The "generator.php" then aut
 the provided information. You will be required to configure some strings first, to make it work properly.
 
 # Installation
+   1. $ git clone https://github.com/aleri0n/Stack-Overflow-PHPBB-Automated.git
+   2. $ cd Stack-Overflow-PHPBB-Automated
+   3. $ gedit phpbb.py
+   4. # Configure the values in the phpbb.py script.
+   5. $ python phpbb.py (OR ./phpbb.py)
 
-Python Script:
-1. $ git clone https://github.com/aleri0n/Stack-Overflow-PHPBB-Automated.git
-2. $ cd Stack-Overflow-PHPBB-Automated
-3. $ gedit phpbb.py
-4. # Configure the values in the phpbb.py script.
-5. $ python phpbb.py (OR ./phpbb.py)
-
-PHP Script:
-1. Upload the script on your website server.
-2. Configure the connection to database.
-3. Replace 'YOUR SECRET' with random alphabets and integers, replace $forum_id value, $topic_poster, $topic_first_poster_name, $topic_last_poster_id and $topic_last_poster_name to make it work properly.
-
-:)
+# PHP Script
+   1. Upload the script on your website server.
+   2. Configure the connection to database.
+   3. Replace 'YOUR SECRET' with random alphabets and integers, replace $forum_id value, $topic_poster, $topic_first_poster_name, $topic_last_poster_id and $topic_last_poster_name to make it work properly.
