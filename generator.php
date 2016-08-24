@@ -36,11 +36,11 @@ while($row = $resultsecond->fetch_assoc()) {
    $topic_status = '1';
    $topic_type = '1';
    $topic_first_poster_name = 'Aleri0n'; # Your username.
-   $topic_first_poster_colour = 'FF8000';
+   $topic_first_poster_colour = '';
    $topic_last_post_id = $topic_first_post_id ;
    $topic_last_poster_id = '2'; # For example if your profile URL was http://www.warrior.pk/memberlist.php?mode=viewprofile&u=2 you'd put 2 here.
    $topic_last_poster_name = 'Aleri0n'; # Your username.
-   $topic_last_poster_colour = 'FF8000';
+   $topic_last_poster_colour = '';
    $topic_last_post_subject = $topic_title;
    $topic_last_post_time = $topic_time;
    $topic_last_view_time = $topic_time;
